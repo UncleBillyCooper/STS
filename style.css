@@ -75,7 +75,7 @@ header{
     height: 100%;
     width: 50%;
   
-    border: 2px white solid;
+    /* border: 2px white solid; */
   
   
   }
@@ -84,46 +84,44 @@ header{
     list-style-type: none;
     text-decoration: none;
     text-align: center;
-    font-family: Avenir Next;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 34px;
-    letter-spacing: 0em;
-
-
+    
   }
   
   .nav-panel ul li a {
     color: #0385AC;
     text-decoration: none;
-    
+    font-size: clamp(5px, 1vmax, 20px);
+    font-family: Avenir Next;
+    font-weight: 500;
+    line-height: 34px;
   }
 
 .nav-panel img{
-    aspect-ratio: 2 / 1;  
+    aspect-ratio: 2 / 1;
+    width: 5.2%;  
 }
 
 .phone{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 280px;
+    width: 22%;
     /* border: 2px black solid; */
 }
 
 .phone p{
     font-family: Avenir Next;
-    font-size: 22px;
+    font-size: clamp(5px, 1vmax, 20px);
     font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
+   
     text-align: left;
     color: #0385AC;
 }
 
 .phone img{
-    width: 48px;
-    height: 48px;
+    /* width: 48px; */
+    width: 15%;
+    /* height: 48px; */
     aspect-ratio: 1;
 
 }
@@ -143,17 +141,20 @@ header{
 
 
 .header-banner img{
-    width: 1116px;
-    height: 900px;
+    /* width: 1116px; */
+    width: 76.8%;
+    /* height: 900px; */
+    aspect-ratio: 1.3 / 1;
     position: absolute;
-    right: -30px;
+    /* right: -30px; */
+    right: -2.1%;
 }
 
 .header-banner__content{
     /* translate: 11% 0px; */
     /* border: 2px red solid; */
     width: 40%;
-    height: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -166,14 +167,16 @@ header{
 
 
 .header-banner__content button{
-    width: 275px;
-    height: 78px;
+    /* width: 275px; */
+    width: 60%;
+    aspect-ratio: 3.5 / 1;
     border-radius: 44px;
     font-family: Avenir;
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: clamp(10px, 2vmax, 28px);
     font-weight: 600;
-    line-height: 38px;
-    letter-spacing: 0em;
+    
+    
     color: #20B7D9;
     border: none;
 
@@ -182,17 +185,14 @@ header{
 .header-banner__content h1{
     color: white;
     font-family: Futura;
+    font-size: clamp(0.5rem, 3vmax, 6rem);
     
-    font-size: 6rem;
     font-weight: 700;
-    line-height: 90px;
-    letter-spacing: 0em;
-    text-align: left;
+    
     width: 100%;
-    /* width: 711px; */
+    
     height: 45%;
-    /* height: 180px; */
-    /* border: 2px black solid; */
+    
     text-wrap: balance;
     
 }
@@ -202,14 +202,17 @@ header{
     width: 80%;
     /* border: 2px black solid; */
     font-family: Avenir;
-    font-size: 26px;
+    /* font-size: 26px; */
+    font-size: clamp(5px, 1vmax, 26px);
     font-weight: 500;
-    line-height: 34.15px;
-    letter-spacing: 0em;
-    text-align: left;
+    /* line-height: 34.15px; */
+    /* letter-spacing: 0em;
+    text-align: left; */
     color: white;
     /* text-wrap: balance; */
 }
+
+
 
 .main-container {
     display: flex;
@@ -223,19 +226,21 @@ header{
 
 .title {
     width: 70.4%;
-    height: 220px;
+    height: 3.7;
+    /* aspect-ratio: 4.8 / 1; */
     /* border: 3px green solid; */
     font-family: Avenir Next;
-    font-size: 45px;
+    font-size: clamp(5px, 2vmax, 45px);
     font-weight: 500;
-    line-height: 55px;
-    letter-spacing: 0em;
+    /* line-height: 55px; */
+    
     text-align: center;
     color: #0385AC;
 }
 .teachers {
     width: 96%;
-    height: 925px;
+    /* aspect-ratio: 1.3 / 1; */
+    height: 19%;
     /* border: 3px gold solid; */
     display: flex;
     flex-direction: column;
@@ -245,17 +250,19 @@ header{
 
 .teachers h2{
     font-family: Avenir Next;
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: clamp(5px, 2vmax, 60px);
     font-weight: 600;
-    line-height: 82px;
+    
     color: #0385AC;
 
 }
 
 .teachers__cards{
     /* border: 2px black solid; */
-    width: 100%;
-    height: 658px;
+    width: 80%;
+    /* height: 658px; */
+    aspect-ratio: 1.9 / 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -268,13 +275,14 @@ header{
     flex-direction: column;
     justify-content: space-around;
     /* align-items: center; */
-    width: 459px;
-    height: 658px;
-    border: 2px gold solid;
+    /* width: 459px; */
+    height: 95%;
+    width: 90%;
+    /* border: 2px gold solid; */
     border-radius: 19px;
     background-color: #0385AC;
     /* padding: 20px 0px 20px 0px; */
-    padding-bottom: 40px;
+    padding-bottom: 6%;
 }
 
 .teachers__cards .card img{
@@ -288,35 +296,66 @@ header{
 
 .teachers__cards .card h3{
     font-family: Avenir Next;
-    font-size: 27px;
+    /* font-size: 27px; */
+    font-size: clamp(10px, 2vmax, 27px);
     font-weight: 600;
-    line-height: 37px;
-    letter-spacing: 0em;
+   
+   
     color: white;
-    margin-left: 25px;
+    margin-left: 6%;
 }
 
 .teachers__cards .card p{
+    display: inline-block;
+    /* border: 2px black solid; */
+    width: 90%;
+    
     font-family: Avenir Next;
-    font-size: 25px;
+    
+    font-size: clamp(5px, 1vmax, 25px);
     font-weight: 500;
-    line-height: 25px;
-    margin-left: 25px;
+    
+    margin-left: 6%;
     color: white;
+    }
+
+    .card__education{
+        height: 9%;
+        overflow-y: scroll;
+    }
+
+    .card__education::-webkit-scrollbar{
+        display: none;
+    }
+
+    .card__skills{
+        height: 25%;
+        overflow-y: scroll;
+    }
+
+    .card__skills::-webkit-scrollbar{
+        display: none;
     }
 
 
 .cardsNav{
     width: 30%;
+    height: 10%;
     /* border: 2px black solid; */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.cardsNav img{
+    width: 20%;
+    
+}
+
 .whyUs {
     width: 90%;
-    height: 574px;
+    /* aspect-ratio: 2.1 / 1; */
+    height: 10.6%;
     /* border: 3px turquoise solid; */
     display: flex;
     justify-content: space-around;
@@ -335,20 +374,28 @@ header{
 .whyUs__content h2{
     color: #0385AC;
     font-family: Avenir Next;
-    font-size: 50px;
+    font-size: clamp(5px, 2vmax, 50px);
     font-weight: 600;
-    line-height: 68px;
+    
     text-wrap: balance;
 
 }
 
 .whyUs__content p{
+    display: inline-block;
+    height: 47%;
+    overflow-y: scroll;
+    /* border: 2px black solid; */
     font-family: Avenir Next;
-    font-size: 25px;
+    font-size: clamp(10px, 2vmax, 25px);
     font-weight: 400;
-    line-height: 34px;
+    
     color: #0385AC;
 
+}
+
+.whyUs__content p::-webkit-scrollbar{
+    display: none;
 }
 
 .whyUs__content button{
@@ -358,9 +405,9 @@ header{
     background-color: #0385AC;
     color: white;
     font-family: Avenir Next;
-    font-size: 25px;
+    font-size: clamp(5px, 1vmax, 25px);
     font-weight: 500;
-    line-height: 34px;
+    
     border: none;
 }
 
@@ -371,8 +418,8 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 3.7%;
+    grid-row-gap: 3.7%;
     align-items: center;
     justify-items: center;
     
@@ -388,9 +435,9 @@ header{
     justify-content: center;
     align-items: center;
     font-family: Avenir Next;
-    font-size: 35px;
+    font-size: clamp(5px, 1vmax, 35px);
     font-weight: 500;
-    line-height: 29px;
+    
     text-align: center;
 
 }
@@ -414,7 +461,8 @@ header{
 
 .whyWeNeed {
     width: 90%;
-    height: 875px;
+    height: 21%;
+    /* aspect-ratio: 1 / 1.4; */
     /* border: 3px violet solid; */
     display: flex;
     flex-direction: column;
@@ -423,33 +471,37 @@ header{
 
 .whyWeNeed h2{
     font-family: Avenir Next;
-    font-size: 50px;
+    /* font-size: 50px; */
     font-weight: 600;
-    line-height: 63px;
+    font-size: clamp(5px, 2vmax, 50px);
     color: #0385AC;
     width: 30%;
 }
 
 .whyWeNeed__reasons{
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50% 50%;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
     /* border: 2px black solid; */
-    width: 100%;
-    height: 79%;
+    width: 90%;
+    height: 85%;
     
 }
 
 .reason{
     /* border: 2px blue solid; */
-    height: 100%;
+    /* height: 80%; */
     width: 100%;
+    /* height: 400px; */
+    height: 95%;
     background-color: #14B5D2;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    font-size: clamp(5px, 2vmax, 20px);
 }
 
 .reason__content{
@@ -458,28 +510,38 @@ header{
     justify-content: space-between;
     align-items: start;
     height: 70%;
-    width: 100%;
+    width: 80%;
+    margin-left: 2%;
     /* border: 2px red solid; */
 }
 
 .reason__content h3{
     font-family: Avenir Next;
-    font-size: 40px;
+    font-size: clamp(12px, 3vmax, 30px);
     font-weight: 600;
-    line-height: 41px;
+    /* width: 90%;
+    height: 32%; */
     text-align: start;
     color: white;
     
 }
 
 .reason__content p{
+    display: inline-block;
+    /* border: 2px black solid; */
+    width: 100%;
+    height: 70%;
     color: white;
     font-family: Avenir Next;
-    font-size: 25px;
+    font-size: clamp(10px, 2vmax, 25px);
     font-weight: 400;
-    line-height: 34px;
+    overflow-y: scroll;
     text-align: left;
 
+}
+
+.reason__content p::-webkit-scrollbar{
+    display: none;
 }
 
 .reason__num{
@@ -488,12 +550,14 @@ header{
     justify-content: flex-start;
     align-items: center;
     height: 95%;
+    width: 10%;
     /* border: 2px black solid; */
     margin-right: 10px;
 }
 
 .reason__num div{
-    width: 70px;
+    /* width: 70px; */
+    width: 100%;
     aspect-ratio: 1;
     border-radius: 50%;
     /* border: 2px black solid; */
@@ -505,7 +569,8 @@ header{
 
 .selectCourse {
     width: 90%;
-    height: 1195px;
+    height: 30%;
+    /* aspect-ratio: 1 / 1; */
     /* border: 3px blue solid; */
     display: flex;
     flex-direction: column;
@@ -513,16 +578,16 @@ header{
     align-items: center;
 }
 
-.selectCourse button{
-    width: 413px;
-    height: 78px;
+.selectCourse__btn{
+    width: 34.6%;
+    height: 6.5%;
     border-radius: 44px;
     background-color: #14B5D2;
     color: white;
     font-family: Avenir Next;
-    font-size: 25px;
+    font-size: clamp(5px, 1vmax, 25px);
     font-weight: 500;
-    line-height: 34px;
+    
     align-self: start;
     margin: 30px 0px 0px 30px;
     border: none;
@@ -532,8 +597,8 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50% 50%;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
     /* border: 2px black solid; */
     width: 100%;
     height: 79%;
@@ -541,10 +606,10 @@ header{
 
 .selectCourse h2{
     font-family: Inter;
-    width: 695px;
-    font-size: 50px;
+    width: 58%;
+    font-size: clamp(5px, 2vmax, 50px);
     font-weight: 600;
-    line-height: 61px;
+    
     text-align: center;
     color: #0385AC;
 
@@ -565,53 +630,65 @@ header{
 
 .course h2{
     /* border: 2px black solid; */
-    width: 164px;
-    margin-left: 30px;
+    width: 28.4%;
+    margin-left: 5.2%;
     color: white;
     font-family: Avenir Next;
-    font-size: 33px;
+    font-size: clamp(5px, 1vmax, 33px);
     font-weight: 600;
-    line-height: 37px;
+    
     text-align: left;
 
 }
 
 .course p{
-    display: block;
-    width: 408px;
-    margin-left: 30px;
+    display: inline-block;
+    /* border: 2px black solid; */
+    width: 70.6%;
+    height: 40%;
+    margin-left: 5%;
     font-family: Avenir Next;
-    font-size: 20px;
+    font-size: clamp(7px, 2vmax, 20px);
     font-weight: 400;
-    line-height: 27px;
+    overflow-y: scroll;
     color: white;
+}
+
+.course p::-webkit-scrollbar{
+    display: none;
 }
 
 .course__battonsFilter{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 10%;
-    width: 80%;
-    margin-top: 20px;
+    width: 90%;
+    margin-top: 2%;
     /* border: 2px black solid; */
-    margin-left: 10px;
+    margin-left: 1%;
 }
 
-.course__battonsFilter button{
-    width: 35%;
+.course .course__battonsFilter button{
+    width: 30%;
     height: 90%;
-    border-radius: 60px;
+    border-radius: 65px;
     background: none;
     border: 2px white solid;
     color: white;
     font-family: Avenir Next;
-    font-size: 20px;
+    font-size: clamp(7px, 1vmax, 20px);
     font-weight: 400;
-    line-height: 27px;
+    text-align: center;
 
 
+}
+
+.course__battonsFilter .calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
  .prices{
@@ -620,10 +697,10 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 16.7%;
-    width: 50%;
-    margin-bottom: 20px;
+    width: 60%;
+    margin-bottom: 5%;
     /* border: 2px black solid; */
-    margin-left: 30px;
+    margin-left: 5%;
 }
 
 .prices .actualPrice{
@@ -631,13 +708,13 @@ header{
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100%;
+    height: 90%;
     border-radius: 54px;
     color: #34C6C4;
     font-family: Avenir Next;
-    font-size: 35px;
+    font-size: clamp(5px, 2vmax, 35px);
     font-weight: 600;
-    line-height: 55px;
+    
     background-color: white;
 
     
@@ -646,10 +723,10 @@ header{
 .prices del {
     color: white;
     font-family: Avenir Next;
-    font-size: 35px;
+    font-size: clamp(5px, 2vmax, 35px);
     font-weight: 600;
-    line-height: 55px;
-    width: 50;
+    text-align: center;
+    width: 40%;
     position: relative;
     text-decoration: none;
 }
@@ -661,6 +738,7 @@ header{
 	width: 100%;
 	height: 50%;
 	transform: rotate(-12deg);
+    translate: -14.6%;
 }
 
 footer{
@@ -678,7 +756,7 @@ footer{
 footer .nav-panel{
     /* border: 2px white solid; */
     width: 90%;
-    height: 60px;
+    height: 23.2%;
 }
 
 footer .nav-panel ul{
@@ -690,8 +768,8 @@ footer .nav-panel ul li a{
 }
 
 footer .nav-panel img{
-    width: 117px;
-    aspect-ratio: 2 / 1;
+    width: 8.8%;
+    aspect-ratio: 2 / 0.8;
 }
 
 .footer__phone{
@@ -700,9 +778,14 @@ footer .nav-panel img{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 60px;
-    margin-top: 10px;
+    height: 23.2%;
     
+    
+}
+
+.footer__phone .phone{
+    width: 20%;
+    margin-right: 3%;
 }
 
 .footer__phone .phone p{
@@ -712,9 +795,9 @@ footer .nav-panel img{
 .footer__phone h3{
     color: white;
     font-family: Avenir Next;
-    font-size: 25px;
+    font-size: clamp(5px, 1vmax, 20px);
     font-weight: 400;
-    line-height: 34px;
+    
 
 
 }
